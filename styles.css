@@ -1,0 +1,123 @@
+* {margin: 0;padding: 0;}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+#page {
+    min-height: 200px;
+    width: 75%;
+    min-width: 600px;
+    background: rgb(23, 23, 23);
+    margin: 50px auto;
+    padding: 30px;
+    padding-left: 55px;
+    color: #27aae1;
+}
+
+.photo-and-name {
+    /* */
+}
+
+.photo {
+    width: 15%;
+    min-width: 130px;
+    float: left;
+    margin-right: 20px;
+}
+
+.contact-info-box {
+    width: 70.9%;
+    display: inline-block;
+}
+
+.name {
+    margin-bottom: -5px;
+}
+.job-title {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.contact-details {
+    background: #2e2e2e;
+    color: #27aae1;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#objective, #education, #work, #skill, #bio-data {
+    padding-left: 35px;
+}
+
+#objective {
+    padding-top: 35px;
+}
+
+#objective h3, #education h3, #work h3, #bio-data h3, #skill h3 {
+    /* border: 1px solid #d3d3d3; */
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+    font-size: 20px;
+}
+
+#objective p {
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 18px;
+    color: rgb(176, 176, 176);
+}
+
+#education table td, #work table td {
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(176, 176, 176);
+}
+
+#education table tr.school-1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#education table tr.school-2 td:first-child {
+    padding-bottom: 25px;
+}
+
+#work table tr.work-1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#work table tr.work-1 td, #skill table tr.work-1 td:first-child {
+    padding-left: 5px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: rgb(176, 176, 176);
+}
+
+#work table tr.work-2 td:first-child {
+    width: 120px;
+    color: gray;
+}
+
+#bio-data table td {
+    padding: 8px;
+    font-size: 18px;
+    color: rgb(176, 176, 176);
+}
+
+#bio-data table tr td:first-child {
+    width: 200px;
+}
+
+#bio-data table tr td:nth-child(2) {
+    width: 300px;
+}
